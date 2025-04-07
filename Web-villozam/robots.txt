@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.villozam.com/sitemap.xml
+
+# No permitir la indexación de archivos de sistema
+Disallow: /vendor/
+Disallow: /css/
+Disallow: /js/
+Disallow: /php/
+
+# Permitir la indexación de imágenes
+Allow: /img/ 
