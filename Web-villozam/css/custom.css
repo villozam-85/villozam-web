@@ -40,3 +40,41 @@
   justify-content: center;
   flex-direction: column;
 }
+
+/* Custom CSS for Language Selector */
+.flag-icon {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px;
+  line-height: 1;
+}
+
+.flag-icon img {
+  border: 1px solid #e5e5e5;
+  border-radius: 2px;
+  vertical-align: middle;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.flag-icon.active img {
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+  border-color: #ccc;
+}
+
+.dropdown-menu .flag-icon {
+  width: 18px;
+  height: 12px;
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.nav-link.dropdown-toggle .fa-chevron-down {
+  font-size: 10px;
+  margin-left: 3px;
+}
+
+/* Highlight active language */
+.dropdown-item.active {
+  background-color: #f8f9fa;
+  color: #0088cc;
+}
